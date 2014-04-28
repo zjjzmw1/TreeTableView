@@ -117,7 +117,7 @@
 		187DDE29190E485C007A8C03 /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
-				187DDE5E190E74B2007A8C03 /* Classes */,
+				187DDE5A190E57F6007A8C03 /* BaseTreeTableViewController */,
 				187DDE32190E485C007A8C03 /* AppDelegate.h */,
 				187DDE33190E485C007A8C03 /* AppDelegate.m */,
 				187DDE5B190E583B007A8C03 /* MyTestTreeViewController.h */,
@@ -174,14 +174,6 @@
 				187DDE53190E489B007A8C03 /* TreeTableViewController.m */,
 			);
 			name = BaseTreeTableViewController;
-			sourceTree = "<group>";
-		};
-		187DDE5E190E74B2007A8C03 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				187DDE5A190E57F6007A8C03 /* BaseTreeTableViewController */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
