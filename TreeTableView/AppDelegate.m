@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MyTestTreeViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,6 +16,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    MyTestTreeViewController *treeTableVC = [[MyTestTreeViewController alloc]init];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:treeTableVC];
+    self.window.rootViewController = navi;
+    
     return YES;
 }
 
