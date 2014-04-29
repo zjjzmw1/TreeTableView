@@ -46,19 +46,19 @@
 		187DDE44190E485C007A8C03 /* TreeTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		187DDE46190E485C007A8C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		187DDE48190E485C007A8C03 /* TreeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewTests.m; sourceTree = "<group>"; };
-		187DDE60190E78F1007A8C03 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		187DDE61190E78F1007A8C03 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187DDE62190E78F1007A8C03 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		187DDE60190E78F1007A8C03 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		187DDE61190E78F1007A8C03 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		187DDE62190E78F1007A8C03 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Classes/close.png; sourceTree = "<group>"; };
 		187DDE64190E78F1007A8C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		187DDE65190E78F1007A8C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		187DDE66190E78F1007A8C03 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		187DDE67190E78F1007A8C03 /* MyTestTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTestTreeViewController.h; sourceTree = "<group>"; };
-		187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTestTreeViewController.m; sourceTree = "<group>"; };
-		187DDE69190E78F1007A8C03 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
-		187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TreeTableView-Info.plist"; sourceTree = "<group>"; };
-		187DDE6B190E78F1007A8C03 /* TreeTableView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TreeTableView-Prefix.pch"; sourceTree = "<group>"; };
-		187DDE6C190E78F1007A8C03 /* TreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableViewController.h; sourceTree = "<group>"; };
-		187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewController.m; sourceTree = "<group>"; };
+		187DDE65190E78F1007A8C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Classes/Images.xcassets; sourceTree = "<group>"; };
+		187DDE66190E78F1007A8C03 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		187DDE67190E78F1007A8C03 /* MyTestTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTestTreeViewController.h; path = Classes/MyTestTreeViewController.h; sourceTree = "<group>"; };
+		187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTestTreeViewController.m; path = Classes/MyTestTreeViewController.m; sourceTree = "<group>"; };
+		187DDE69190E78F1007A8C03 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = open.png; path = Classes/open.png; sourceTree = "<group>"; };
+		187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TreeTableView-Info.plist"; path = "Classes/TreeTableView-Info.plist"; sourceTree = "<group>"; };
+		187DDE6B190E78F1007A8C03 /* TreeTableView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TreeTableView-Prefix.pch"; path = "Classes/TreeTableView-Prefix.pch"; sourceTree = "<group>"; };
+		187DDE6C190E78F1007A8C03 /* TreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeTableViewController.h; path = Classes/TreeTableViewController.h; sourceTree = "<group>"; };
+		187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeTableViewController.m; path = Classes/TreeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,19 @@
 		187DDE29190E485C007A8C03 /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
-				187DDE5F190E78F1007A8C03 /* Classes */,
+				187DDE60190E78F1007A8C03 /* AppDelegate.h */,
+				187DDE61190E78F1007A8C03 /* AppDelegate.m */,
+				187DDE62190E78F1007A8C03 /* close.png */,
+				187DDE63190E78F1007A8C03 /* InfoPlist.strings */,
+				187DDE65190E78F1007A8C03 /* Images.xcassets */,
+				187DDE66190E78F1007A8C03 /* main.m */,
+				187DDE67190E78F1007A8C03 /* MyTestTreeViewController.h */,
+				187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */,
+				187DDE69190E78F1007A8C03 /* open.png */,
+				187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */,
+				187DDE6B190E78F1007A8C03 /* TreeTableView-Prefix.pch */,
+				187DDE6C190E78F1007A8C03 /* TreeTableViewController.h */,
+				187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */,
 			);
 			path = TreeTableView;
 			sourceTree = "<group>";
@@ -139,26 +151,6 @@
 				187DDE45190E485C007A8C03 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		187DDE5F190E78F1007A8C03 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				187DDE60190E78F1007A8C03 /* AppDelegate.h */,
-				187DDE61190E78F1007A8C03 /* AppDelegate.m */,
-				187DDE62190E78F1007A8C03 /* close.png */,
-				187DDE63190E78F1007A8C03 /* InfoPlist.strings */,
-				187DDE65190E78F1007A8C03 /* Images.xcassets */,
-				187DDE66190E78F1007A8C03 /* main.m */,
-				187DDE67190E78F1007A8C03 /* MyTestTreeViewController.h */,
-				187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */,
-				187DDE69190E78F1007A8C03 /* open.png */,
-				187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */,
-				187DDE6B190E78F1007A8C03 /* TreeTableView-Prefix.pch */,
-				187DDE6C190E78F1007A8C03 /* TreeTableViewController.h */,
-				187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +291,7 @@
 				187DDE64190E78F1007A8C03 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
