@@ -10,19 +10,20 @@
 		187DDE24190E485C007A8C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DDE23190E485C007A8C03 /* Foundation.framework */; };
 		187DDE26190E485C007A8C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DDE25190E485C007A8C03 /* CoreGraphics.framework */; };
 		187DDE28190E485C007A8C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DDE27190E485C007A8C03 /* UIKit.framework */; };
-		187DDE2E190E485C007A8C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE2C190E485C007A8C03 /* InfoPlist.strings */; };
-		187DDE30190E485C007A8C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE2F190E485C007A8C03 /* main.m */; };
-		187DDE34190E485C007A8C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE33190E485C007A8C03 /* AppDelegate.m */; };
-		187DDE36190E485C007A8C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE35190E485C007A8C03 /* Images.xcassets */; };
 		187DDE3D190E485C007A8C03 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DDE3C190E485C007A8C03 /* XCTest.framework */; };
 		187DDE3E190E485C007A8C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DDE23190E485C007A8C03 /* Foundation.framework */; };
 		187DDE3F190E485C007A8C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DDE27190E485C007A8C03 /* UIKit.framework */; };
 		187DDE47190E485C007A8C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE45190E485C007A8C03 /* InfoPlist.strings */; };
 		187DDE49190E485C007A8C03 /* TreeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE48190E485C007A8C03 /* TreeTableViewTests.m */; };
-		187DDE54190E489B007A8C03 /* TreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE53190E489B007A8C03 /* TreeTableViewController.m */; };
-		187DDE57190E50DF007A8C03 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE55190E50DF007A8C03 /* close.png */; };
-		187DDE58190E50DF007A8C03 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE56190E50DF007A8C03 /* open.png */; };
-		187DDE5D190E583B007A8C03 /* MyTestTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE5C190E583B007A8C03 /* MyTestTreeViewController.m */; };
+		187DDE6E190E78F1007A8C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE61190E78F1007A8C03 /* AppDelegate.m */; };
+		187DDE6F190E78F1007A8C03 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE62190E78F1007A8C03 /* close.png */; };
+		187DDE70190E78F1007A8C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE63190E78F1007A8C03 /* InfoPlist.strings */; };
+		187DDE71190E78F1007A8C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE65190E78F1007A8C03 /* Images.xcassets */; };
+		187DDE72190E78F1007A8C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE66190E78F1007A8C03 /* main.m */; };
+		187DDE73190E78F1007A8C03 /* MyTestTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */; };
+		187DDE74190E78F1007A8C03 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE69190E78F1007A8C03 /* open.png */; };
+		187DDE75190E78F1007A8C03 /* TreeTableView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */; };
+		187DDE76190E78F1007A8C03 /* TreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,24 +41,24 @@
 		187DDE23190E485C007A8C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		187DDE25190E485C007A8C03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		187DDE27190E485C007A8C03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		187DDE2B190E485C007A8C03 /* TreeTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeTableView-Info.plist"; sourceTree = "<group>"; };
-		187DDE2D190E485C007A8C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		187DDE2F190E485C007A8C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		187DDE31190E485C007A8C03 /* TreeTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreeTableView-Prefix.pch"; sourceTree = "<group>"; };
-		187DDE32190E485C007A8C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		187DDE33190E485C007A8C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		187DDE35190E485C007A8C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		187DDE3B190E485C007A8C03 /* TreeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187DDE3C190E485C007A8C03 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		187DDE44190E485C007A8C03 /* TreeTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreeTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		187DDE46190E485C007A8C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		187DDE48190E485C007A8C03 /* TreeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewTests.m; sourceTree = "<group>"; };
-		187DDE52190E489B007A8C03 /* TreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableViewController.h; sourceTree = "<group>"; };
-		187DDE53190E489B007A8C03 /* TreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewController.m; sourceTree = "<group>"; };
-		187DDE55190E50DF007A8C03 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
-		187DDE56190E50DF007A8C03 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
-		187DDE5B190E583B007A8C03 /* MyTestTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTestTreeViewController.h; sourceTree = "<group>"; };
-		187DDE5C190E583B007A8C03 /* MyTestTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTestTreeViewController.m; sourceTree = "<group>"; };
+		187DDE60190E78F1007A8C03 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187DDE61190E78F1007A8C03 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187DDE62190E78F1007A8C03 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		187DDE64190E78F1007A8C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187DDE65190E78F1007A8C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		187DDE66190E78F1007A8C03 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187DDE67190E78F1007A8C03 /* MyTestTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTestTreeViewController.h; sourceTree = "<group>"; };
+		187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTestTreeViewController.m; sourceTree = "<group>"; };
+		187DDE69190E78F1007A8C03 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TreeTableView-Info.plist"; sourceTree = "<group>"; };
+		187DDE6B190E78F1007A8C03 /* TreeTableView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TreeTableView-Prefix.pch"; sourceTree = "<group>"; };
+		187DDE6C190E78F1007A8C03 /* TreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableViewController.h; sourceTree = "<group>"; };
+		187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,27 +118,9 @@
 		187DDE29190E485C007A8C03 /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
-				187DDE5A190E57F6007A8C03 /* BaseTreeTableViewController */,
-				187DDE32190E485C007A8C03 /* AppDelegate.h */,
-				187DDE33190E485C007A8C03 /* AppDelegate.m */,
-				187DDE5B190E583B007A8C03 /* MyTestTreeViewController.h */,
-				187DDE5C190E583B007A8C03 /* MyTestTreeViewController.m */,
-				187DDE35190E485C007A8C03 /* Images.xcassets */,
-				187DDE2A190E485C007A8C03 /* Supporting Files */,
+				187DDE5F190E78F1007A8C03 /* Classes */,
 			);
 			path = TreeTableView;
-			sourceTree = "<group>";
-		};
-		187DDE2A190E485C007A8C03 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				187DDE59190E5154007A8C03 /* img */,
-				187DDE2B190E485C007A8C03 /* TreeTableView-Info.plist */,
-				187DDE2C190E485C007A8C03 /* InfoPlist.strings */,
-				187DDE2F190E485C007A8C03 /* main.m */,
-				187DDE31190E485C007A8C03 /* TreeTableView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		187DDE42190E485C007A8C03 /* TreeTableViewTests */ = {
@@ -158,22 +141,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		187DDE59190E5154007A8C03 /* img */ = {
+		187DDE5F190E78F1007A8C03 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				187DDE55190E50DF007A8C03 /* close.png */,
-				187DDE56190E50DF007A8C03 /* open.png */,
+				187DDE60190E78F1007A8C03 /* AppDelegate.h */,
+				187DDE61190E78F1007A8C03 /* AppDelegate.m */,
+				187DDE62190E78F1007A8C03 /* close.png */,
+				187DDE63190E78F1007A8C03 /* InfoPlist.strings */,
+				187DDE65190E78F1007A8C03 /* Images.xcassets */,
+				187DDE66190E78F1007A8C03 /* main.m */,
+				187DDE67190E78F1007A8C03 /* MyTestTreeViewController.h */,
+				187DDE68190E78F1007A8C03 /* MyTestTreeViewController.m */,
+				187DDE69190E78F1007A8C03 /* open.png */,
+				187DDE6A190E78F1007A8C03 /* TreeTableView-Info.plist */,
+				187DDE6B190E78F1007A8C03 /* TreeTableView-Prefix.pch */,
+				187DDE6C190E78F1007A8C03 /* TreeTableViewController.h */,
+				187DDE6D190E78F1007A8C03 /* TreeTableViewController.m */,
 			);
-			name = img;
-			sourceTree = "<group>";
-		};
-		187DDE5A190E57F6007A8C03 /* BaseTreeTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				187DDE52190E489B007A8C03 /* TreeTableViewController.h */,
-				187DDE53190E489B007A8C03 /* TreeTableViewController.m */,
-			);
-			name = BaseTreeTableViewController;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,10 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187DDE57190E50DF007A8C03 /* close.png in Resources */,
-				187DDE2E190E485C007A8C03 /* InfoPlist.strings in Resources */,
-				187DDE58190E50DF007A8C03 /* open.png in Resources */,
-				187DDE36190E485C007A8C03 /* Images.xcassets in Resources */,
+				187DDE71190E78F1007A8C03 /* Images.xcassets in Resources */,
+				187DDE75190E78F1007A8C03 /* TreeTableView-Info.plist in Resources */,
+				187DDE74190E78F1007A8C03 /* open.png in Resources */,
+				187DDE6F190E78F1007A8C03 /* close.png in Resources */,
+				187DDE70190E78F1007A8C03 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187DDE34190E485C007A8C03 /* AppDelegate.m in Sources */,
-				187DDE54190E489B007A8C03 /* TreeTableViewController.m in Sources */,
-				187DDE5D190E583B007A8C03 /* MyTestTreeViewController.m in Sources */,
-				187DDE30190E485C007A8C03 /* main.m in Sources */,
+				187DDE72190E78F1007A8C03 /* main.m in Sources */,
+				187DDE73190E78F1007A8C03 /* MyTestTreeViewController.m in Sources */,
+				187DDE6E190E78F1007A8C03 /* AppDelegate.m in Sources */,
+				187DDE76190E78F1007A8C03 /* TreeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,18 +285,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		187DDE2C190E485C007A8C03 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				187DDE2D190E485C007A8C03 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		187DDE45190E485C007A8C03 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				187DDE46190E485C007A8C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		187DDE63190E78F1007A8C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187DDE64190E78F1007A8C03 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
